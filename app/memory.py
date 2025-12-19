@@ -1,7 +1,7 @@
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_core.tools import tool
-from app.config import VECTOR_DB_PATH, EMBEDDING_MODEL
+from config.config import VECTOR_DB_PATH, EMBEDDING_MODEL
 
 # Initialize Embeddings & Vector DB
 embeddings = HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL)
