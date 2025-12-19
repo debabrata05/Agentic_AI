@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+langchain
+langchain-ollama
+langchain-chroma
+langchain-community
+langgraph
+pydantic
+chromadb
+duckduckgo-search
+langchain-mcp-adapters
+mcp
